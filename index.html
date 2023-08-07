@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jugal - WEB Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,200;1,400&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #17214d;
+            color: antiquewhite;
+            font-family: 'Poppins', sans-serif;
+
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: #040611;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: rgb(185, 179, 172);
+        }
+
+        nav ul li a:hover {
+            color: rgb(12, 122, 14);
+            font-size: 1.3rem;
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 60px 84px;
+
+        }
+
+        .left {
+            font-size: 1.6rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+        }
+
+        .firstSection div {
+            width: 30%;
+        }
+
+
+        .leftSection {
+            font-size: 2.4rem;
+            margin: 70px 0;
+        }
+
+        .leftSection .btn {
+            padding: 12px;
+            background-color: rgb(7, 8, 69);
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .rightSection img {
+            width: 80%;
+            margin: 50px 0;
+
+        }
+
+        .purple {
+            color: rgb(89, 12, 160);
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(89, 12, 160)
+        }
+
+        .secondSection {
+            max-width: 75vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        h1 {
+            font-size: 3rem;
+           
+            text-align: center;
+
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+        }
+
+        table {
+            max-width: 0 100%;
+            margin-left: 40px;
+            margin-right: 40px;
+
+            margin-bottom: 220px;
+        }
+
+        .skillspara {
+            margin-left: 40px;
+            margin-right: 60px;
+
+            margin-bottom: 220px;
+
+        }
+
+        .Projects {
+            margin-left: 40px;
+            margin-right: 60px;
+
+            margin-bottom: 220px;
+        }
+
+        .contactme{
+            margin-left: 90px;
+            margin-bottom: 50px;
+            margin-bottom: 250px;
+            text-align: center;
+            font-size: 21px;
+        }
+        .contactbtn{
+            
+            padding: 12px;
+            background-color: rgb(7, 8, 69);
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+            
+        }
+
+
+        footer {
+            background-color: #17214d;
+        }
+
+        .footer {
+            display: flex;
+            justify-content: space-evenly;
+
+
+        }
+
+        h3 {
+            margin-left: 40px;
+
+        }
+
+        footer div ul {
+            margin-left: 300px;
+            list-style: none;
+
+        }
+
+        .footer>div {
+            width: 223px;
+
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Jugal's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#Projects">Project</a></li>
+                    <li><a href="#contact">Contect Me</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                <p> Hi, My name is <span class="purple">Jugal Dutt</span> and I am a passionate <br>
+                    <span id="element"></span>
+                <a href="https://drive.google.com/file/d/1hX3M1b9dyOZF8PsX7KWTeCqH752v_bbN/view?usp=sharing">    
+                <div class="buttons">
+                    <button class="btn">Download Resume    
+                </div>
+                </a>
+                <a href="https://github.com/jugaldutt">
+                <div class="buttons">
+                <button class="btn">Visit Github
+                </div>
+                </a>
+            </div>
+
+
+
+            <div class="rightSection">
+                <img src="bg.png.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <div id="about">
+            <h1>Education</h1>
+            <div class="vertical">
+                <table border="5" width="95%">
+                    <tr>
+
+                        <thead>
+                            <th>
+                                Course
+                            </th>
+                            <th>
+                                Institutes
+                            </th>
+                            <th>
+                                Session
+                            </th>
+                        </thead>
+                    </tr>
+                    <tbody>
+                        <tr>
+                            <td>
+                                High School
+                            </td>
+                            <td>
+                                BBSSM INTER COLLEGE
+                            </td>
+                            <td>
+                                2016-2017
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                INTERMEDIATE
+                            </td>
+                            <td>
+                                BBSSM INTER COLLEGE
+                            </td>
+                            <td>
+                                2018-2019
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                B.TECH
+                            </td>
+                            <td>
+                                ABESIT
+                            </td>
+                            <td>
+                                2019-2023
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <hr>
+
+
+        <!-- Skills -->
+
+        <div class="container-fluid skillSection" id="skills">
+
+            <h1>Skills</h1>
+            <p class="skillspara">A skill is the ability to perform an action with determined results often within a
+                given amount of time,
+                energy, or both. Skills can often be divided into domain-general and domain-specific skills. For
+                example, in the domain of work, some general skills would include time management, teamwork and
+                leadership, self-motivation and others, whereas domain-specific skills would be used only for a certain
+                job. Skill usually requires certain environmental stimuli and situations to assess the level of skill
+                being shown and used. <br> Web Development Languages: Highlight my proficiency in various programming
+                languages such as HTML, CSS, JavaScript,
+                and any other languages or frameworks you specialize in (e.g., React, Angular, etc.) <br>
+                I have knowledge of Java, Python, Object-Oriented Programming System, Data Structures and Algorithms.
+
+
+            </p>
+
+            <hr>
+
+        </div>
+
+        <div class="container-fluid" id="Projects">
+            <div>
+                <h1>Project</h1>
+                <p class="Projects"><b>library management (01/2020 - 02/2020)-</b>
+                    Language- C++,C ( A library management system is used to maintain library records . It tracks the
+                    records of the number of books in the library, how many books are issued, or how many books have
+                    been returned or renewed or late fine charges. ) <br>
+                    <b> Recipe website (08/2021 - 09/2021)-</b>
+                    Language- Html ,CSS, JavaScript (It is basically a Recipe website where we find more then 100
+                    dishes, and
+                    this is very useful website for the people .) <br>
+                    <b> Plant leaf disease detection using python (02/2022 - 05/2023)-</b>
+                    Language- Machine learning, python ( Dataset Collection: Gather a dataset of plant leaf images,
+                    comprising
+                    both healthy leaves and leaves affected by various diseases. This dataset will serve as the
+                    foundation for training and evaluating the machine learning model.)
+
+
+                </p>
+
+
+            </div>
+            <hr>
+
+
+            <!-- Contact me! -->
+    <div class="contactme" id="contact">
+        <div>
+            <h1>Contact Me!</h1>    
+            <p class="contactpara">
+               <b> You can contact me anytime on</b>.......
+            </p>
+        </div>
+        <div class="contactButtonContainer">
+            <div class="contactButton">
+                <a href="https://wa.me/9068959560?text=Hii%20Tushar!" target="_blank">
+                    <button class="contactbtn">
+                        <div>
+                            <i class="fab fa-whatsapp"></i> Message Me!
+                        </div>
+                    </button>
+                </a>
+                <a href="mailto:jugal2019it027abesit@gmail.com" target="_blank">
+                    <button class="contactbtn">
+                        <div>
+                            <i class="far fa-envelope"></i> e-Mail :- jugal2019it027abesit@gmail.com
+                        </div>
+                    </button>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+<hr>
+    </main>
+
+    <footer>
+        <div class="footer-rights">
+            &#169; jugalsportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['<i>First</i> sentence.', '&amp; a second sentence.'],
+            typeSpeed: 50,
+        });
+    </script>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Designer', 'Web Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
