@@ -24,20 +24,21 @@
 
         nav {
             display: flex;
-            justify-content: space-around;
+            justify-content: stretch;
             align-items: center;
             height: 80px;
+            width: 100%;
             background-color: #040611;
         }
 
         nav ul {
-            display: flex;
+            display: inline-flex;
             justify-content: center;
         }
 
         nav ul li {
             list-style: none;
-            margin: 0 23px;
+            margin: 0 5%;
         }
 
         nav ul li a {
@@ -50,11 +51,16 @@
             font-size: 1.3rem;
         }
 
+        main {
+            width: 100%;
+            height: 100%;
+        }
+
         main hr {
             border: 0;
             background: #9c97f1;
             height: 1.2px;
-            margin: 60px 84px;
+            margin: 50px 50px;
 
         }
 
@@ -66,7 +72,7 @@
             display: flex;
             justify-content: space-around;
             align-items: center;
-            margin: 130px 0;
+            margin: 100px 0;
         }
 
         .firstSection div {
@@ -90,8 +96,8 @@
         }
 
         .rightSection img {
-            width: 80%;
-            margin: 50px 0;
+            width: 100%;
+            margin: 0px 0;
 
         }
 
@@ -110,7 +116,7 @@
         .secondSection {
             max-width: 75vw;
             margin: auto;
-            height: 80vh;
+            height: 80px;
         }
 
         h1 {
@@ -132,23 +138,19 @@
             height: 93px;
             width: 1px;
             background-color: white;
-            margin: 0 100px;
         }
 
         table {
             max-width: 0 100%;
             margin-left: 40px;
             margin-right: 40px;
-
             margin-bottom: 220px;
         }
 
         .skillspara {
             margin-left: 40px;
             margin-right: 60px;
-
             margin-bottom: 220px;
-
         }
 
         .Projects {
@@ -166,7 +168,6 @@
             font-size: 21px;
         }
         .contactbtn{
-            
             padding: 12px;
             background-color: rgb(7, 8, 69);
             color: white;
@@ -205,6 +206,10 @@
 
         }
 
+        p{
+            text-align: center;
+        }
+
         footer .footer-rights {
             text-align: center;
             color: gray;
@@ -231,7 +236,7 @@
         </nav>
     </header>
 
-    <main>
+    <main class="main">
         <section class="firstSection">
             <div class="leftSection">
                 <p> Hi, My name is <span class="purple">Jugal Dutt</span> and I am a passionate <br>
@@ -250,9 +255,6 @@
 
 
 
-            <div class="rightSection">
-                <img src="bg.png.png" alt="">
-            </div>
         </section>
         <hr>
         <div id="about">
@@ -319,7 +321,7 @@
         <div class="container-fluid skillSection" id="skills">
 
             <h1>Skills</h1>
-            <p class="skillspara">A skill is the ability to perform an action with determined results often within a
+            <p class="skillspara" >A skill is the ability to perform an action with determined results often within a
                 given amount of time,
                 energy, or both. Skills can often be divided into domain-general and domain-specific skills. For
                 example, in the domain of work, some general skills would include time management, teamwork and
@@ -372,7 +374,7 @@
         </div>
         <div class="contactButtonContainer">
             <div class="contactButton">
-                <a href="https://wa.me/9068959560?text=Hii%20Tushar!" target="_blank">
+                <a href="https://wa.me/9068959560?text=Hii%20Jugal!" target="_blank">
                     <button class="contactbtn">
                         <div>
                             <i class="fab fa-whatsapp"></i> Message Me!
